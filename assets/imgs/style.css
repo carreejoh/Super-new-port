@@ -1,0 +1,230 @@
+* {
+font-family: 'Roboto Mono', monospace;
+}
+
+
+:root {
+    --darkpurple: #501F3A;
+    --lightpurple: #CB2D6F;
+    --moderngray: #CCCCCC;
+    --lightblue: #14A098;
+    --darkblue: #0F292F;
+   
+}
+
+/* For Custom Navbar */
+
+.headerish {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+
+.customsidecolor {
+    color: #14A098;
+}
+
+.homebutton {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 10%;
+}
+
+#clockdisplay {
+    text-align: right;
+    padding-top: 2%;
+    color: var(--lightblue)
+}
+
+.landing {
+    padding: 22%;
+    padding-bottom: 27%;
+    height: 900px;
+    background-color: var(--darkblue);
+}
+
+.welcome {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#v1colors {
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 0px 0 , 0 0px var(--lightpurple), 0px 0 var(--lightpurple), 5px -5px var(--lightpurple);
+}
+
+.welcome h1 {
+    color: var(--lightblue);
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.welcome h2 {
+    color: var(--lightblue);
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+
+#v1text {
+    vertical-align: 90%;
+    text-shadow: 0px 0 , 0 0px var(--lightpurple), 0px 0 var(--lightpurple), 3px -3px var(--lightpurple);
+    color: #14A098;
+    font-size: 50px;
+}
+
+.menumargin {
+    margin-top: 50%;
+}
+
+/* Projects */
+
+.wavebackground {
+    background-color: #14A098;
+}
+
+/* Resume */
+
+.resume {
+    width: 100%;
+    background-color: #14A098;
+    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+} 
+
+.masteredtext {
+    color: #0F292F;
+}
+
+.herocolumn {
+    border: solid 2px var(--lightpurple);
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    color: var(--darkblue);
+}
+
+#profilepic {
+    width: 100%;
+    border: solid 2px var(--lightpurple);
+}
+
+#v1resume {
+    text-shadow: 0px 0 , 0 0px var(--lightpurple), 0px 0 var(--lightpurple), 3px -2px var(--lightpurple);
+}
+
+ /* Projects  */
+
+    .projects {
+        width: 100%;
+        padding: 10%;
+        padding-top: 10%;
+        background-color: var(--darkblue);
+    }
+
+    .resumewave {
+        background-color: var(--darkblue);
+    }
+
+
+
+
+  /* Show Me */
+
+  .showme {
+    width: 100%;
+    text-align: center;
+    background-color: #474747;
+    padding-top: 7%;
+  }
+
+  .showme span {
+    padding-bottom: 7%;
+  }
+
+  .heroshowme {
+    padding: 3%;
+    width: 100%;
+  }
+
+  .narrowtext {
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#home {
+    font-size: 24px;
+    text-align: center;
+}
+
+.heromenu {
+    width: 10%; 
+}
+
+.sidebaroptions {
+    margin-top: 200px;
+}
+
+.sidebaroptions a {
+    padding: 30px;
+}
+
+.findmeicons {
+    text-align: center;
+    margin-top: 200%;
+}
+
+.findmeicons i {
+    width: 30px;
+}
+
+.pusher {
+    margin-left: 11%;
+}
+
+/* For Welcome Page 
+
+.welcomepage {
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    margin-left: 9%;
+}
+
+#clockdisplay {
+    margin-left: 75%;
+    padding: 1%;
+}
+
+.herowelcome {
+    text-align: center;
+    padding: 20%;
+}
+
+.heroprojects {
+    margin-left: auto;
+}
